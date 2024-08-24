@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purse & hand bag | powered by MAS infotech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: rgb(204, 204, 204);
+        }
+
+        .navbar {
+            background-color: rgb(24, 24, 68);
+        }
+
+        .about-content>.card>img {
+            width: 100%;
+            height: 500px;
+        }
+
+        .product {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            /* background-color: red; */
+        }
+
+        .product-container {
+            width: auto;
+            height: auto;
+            margin: 5px;
+            box-shadow: 0 0 3px black;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .product-container>ul>li {
+            list-style: none;
+            line-height: 8vh;
+        }
+
+        .product-container>ul>li>a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+        .product-container>h1 {
+            text-align: center;
+        }
+
+        .card-body ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-body ul li {
+            text-decoration: none;
+            list-style: none;
+            text-align: start;
+        }
+
+        .col-md-4>img {
+            width: 100%;
+            height: 300px;
+            box-shadow: 0 0 5px black;
+        }
+
+        .card-group>.card {
+            flex: 1 0 0%;
+            margin-bottom: 0;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+        }
+
+        .btn {
+            background-color: transparent;
+            color: black;
+            text-decoration: underline;
+        }
+
+        /* .about-content>.card>img {
+            width: 100%;
+            height: 350px;
+        } */
+
+        /* .card-group>.card>img{
+            height: 300px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- navbar start   -->
+    <div class="banner">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html"><b>MAS E-SHOP</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light" style="border-radius: 5px;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="men.html">Men's Wear</a></li>
+                                <li><a class="dropdown-item" href="women.html">Women's Wear</a></li>
+                                <li><a class="dropdown-item" href="kids.html">Kid's Wear</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="watch.html">Watches & Perfumes</a></li>
+                                <li><a class="dropdown-item" href="footwear.html">FootWear & Shoes</a></li>
+                                <li><a class="dropdown-item" href="purse.html">Purse & Hand Bag</a></li>
+                                <li><a class="dropdown-item" href="kitchen.html">Home & Kitchen</a></li>
+                                <li><a class="dropdown-item" href="furniture.html">Electronics & Furniture</a></li>
+                                <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- about content start -->
+    <div class="about-content">
+        <div class="card mb-3 border-0">
+            <img src="img/purse-b.jfif" class="card-img-top" alt="...">
+        </div>
+    </div>
+    <!-- about content end  -->
+    <!-- product page start  -->
+    <div class="product">
+
+        <div class="product-container w-100">
+            <h1>Purse & Hand Bag</h1>
+            <div class="card-group">
+                <div class="container">
+                    <div class="row">
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/1.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Black leather wallet for men <br><b>₹599</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/2.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Brown leather wallet for men <br><b>₹699</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/3.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Brown leathe wallet with three slot for men <br><b>₹699</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/4.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Brand new leather wallet for men <br><b>₹879</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/5.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Mini leather wallet for cards for men <br><b>₹549</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/6.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Leather Wallet</h5>
+                                <p class="card-text">Classic Brown leather wallet for men <br><b>₹959</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/7.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">Black leather handbag for women <br><b>₹1599</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/8.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">Classic maroon leather hand bag for women <br><b>₹1299</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                   
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/9.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">New classic leather hand bag for women <br><b>₹1399</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/10.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">Classic black leather hand bag for women <br><b>₹1259</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/11.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">Classic navy leather hand bag for women <br><b>₹1249</b></p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 mb-3 border-0">
+                            <img src="img/wallet/12.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hand Bag</h5>
+                                <p class="card-text">Brand new classic white leather hand bag for women <br><b>₹1199</b>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-body-secondary">
+                                    <a class="btn btn-primary" href="payment.html" role="button">Order Now</a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+        </div></div>
+
+            </div>
+            <div class="product-btn d-flex justify-content-center mt-3">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-outline-secondary"><a href="product.html">1</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="men.html">2</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="women.html">3</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="kids.html">4</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="watch.html">5</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="footwear.html">6</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="purse.html">7</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="kitchen.html">8</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="furniture.html">9</a></button>
+                    <button type="button" class="btn btn-outline-secondary"><a href="sports.html">10</a></button>
+                </div>
+            </div>
+            <!-- product page end  -->
+            <!-- footer content start  -->
+            <footer class="footer-container mt-3">
+                <div class="card text-center">
+                    <h3>Our Trusted Brands</h3>
+                    <div class="card-header d-flex flex-row justify-content-evenly">
+                        <div class="brand-img">
+                            <img src="img/4.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                        </div>
+                        <div class="brand-img">
+                            <img src="img/5.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                        </div>
+                        <div class="brand-img">
+                            <img src="img/6.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                        </div>
+                        <div class="brand-img">
+                            <img src="img/7.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                        </div>
+                        <div class="brand-img">
+                            <img src="img/46.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                        </div>
+                    </div>
+                    <div class="card-body d-flex justify-content-evenly flex-wrap">
+
+                        <ul>
+                            <h4>Quick Links</h4>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Service<a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="product.html">Product</a></li>
+                        </ul>
+                        <ul>
+                            <h4>Dress Links</h4>
+                            <li><a href="men.html">Men's Wear</a></li>
+                            <li><a href="women.html">Women's Wear</a></li>
+                            <li><a href="kids.html">Kid's Wear</a></li>
+                        </ul>
+                        <ul>
+                            <h4>Product Links</h4>
+                            <li><a href="watch.html">Watches & Perfumes</a></li>
+                            <li><a href="footwear.html">FootWear & Shoes</a></li>
+                            <li><a href="purse.html">Purse & Hand Bag</a></li>
+                            <li><a href="kitchen.html">Home & Kitchen</a></li>
+                            <li><a href="furniture.html">Electronics & Furniture</a></li>
+                            <li><a href="sports.html">Sports</a></li>
+                        </ul>
+                        <ul>
+                            <h4>Follow Us On</h4>
+                            <li><a href="">Instagram</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                        <p>copyrights &copy; 2024 reserved- Developed By <a href="https://masinfotech.netlify.app/">MAS
+                                infotech
+                            </a> </p>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer content end  -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>

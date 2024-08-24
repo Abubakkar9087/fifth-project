@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            background-color: rgb(204, 204, 204);
+        }
+        .navbar{
+            background-color: rgb(24, 24, 68);
+        }
+        .about-content>.card>img {
+            width: 100%;
+            height: 500px;
+        }
+
+        .card-body ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-body ul li {
+            text-decoration: none;
+            list-style: none;
+            text-align: start;
+        }
+        .col-md-4>img{
+            width: 100%;
+            height: 300px;
+            box-shadow: 0 0 5px black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar start   -->
+    <div class="banner">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html"><b>MAS E-SHOP</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light" style="border-radius: 5px;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="men.html">Men's Wear</a></li>
+                                <li><a class="dropdown-item" href="women.html">Women's Wear</a></li>
+                                <li><a class="dropdown-item" href="kids.html">Kid's Wear</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="watch.html">Watches & Perfumes</a></li>
+                                <li><a class="dropdown-item" href="footwear.html">FootWear & Shoes</a></li>
+                                <li><a class="dropdown-item" href="purse.html">Purse & Hand Bag</a></li>
+                                <li><a class="dropdown-item" href="kitchen.html">Home & Kitchen</a></li>
+                                <li><a class="dropdown-item" href="furniture.html">Electronics & Furniture</a></li>
+                                <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- about content start -->
+    <div class="about-content">
+        <div class="card mb-3 border-0">
+            <img src="img/banner2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">About MAS E-SHOP</h5>
+                <p class="card-text">Welcome to MAS E-SHOP, your one-stop destination for quality products, exceptional
+                    service, and a seamless shopping experience. At MAS E-SHOP, we are committed to bringing you the
+                    latest and greatest in a wide range of categories, from fashion to electronics, home essentials, and
+                    beyond.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <!-- about content end  -->
+    <!-- about inner story content start  -->
+    <div class="story-content">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row g-0 p-3">
+                <div class="col-md-4">
+                    <img src="img/a-story.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Story</h5>
+                        <p class="card-text">MAS E-SHOP was founded with a simple vision: to create a shopping platform
+                            that offers not just products but an experience. Our journey began with a passion for
+                            innovation and a dedication to making shopping more accessible, convenient, and enjoyable
+                            for everyone. Today, MAS E-SHOP stands as a testament to our commitment to these values,
+                            serving customers from all walks of life with a diverse selection of high-quality goods.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about inner story content end -->
+    <!-- about inner apart content start  -->
+    <div class="apart-content">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row g-0 p-3">
+                <div class="col-md-4">
+                    <img src="img/a-apart.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">What Sets Us Apart</h5>
+                        <p class="card-text"><b>Curated Selection:</b> We carefully handpick every item in our store to
+                            ensure
+                            it meets our high standards of quality, style, and value. <br>
+
+                            <b>Customer-Centric Approach:</b> Your satisfaction is our top priority. From user-friendly
+                            navigation to fast shipping and responsive customer support, we strive to make your shopping
+                            experience as smooth as possible. <br>
+
+                            <b>Innovation & Growth:</b> At MAS E-SHOP, we are always looking for new ways to improve and
+                            expand
+                            our offerings. We embrace the latest technologies and trends to bring you the best online
+                            shopping experience.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about inner apart content end  -->
+    <!-- about inner mission content start  -->
+    <div class="mission-content">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row g-0 p-3">
+                <div class="col-md-4">
+                    <img src="img/a-mission.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Our Mission</h5>
+                        <p class="card-text">Our mission is to make online shopping a delightful experience for
+                            everyone. We believe in offering not just products but solutions that enhance your
+                            lifestyle. Whether you’re looking for the latest fashion trends, must-have gadgets, or
+                            everyday essentials, MAS E-SHOP is here to meet your needs with quality you can trust.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about inner mission content end  -->
+    <!-- about inner journey content start  -->
+    <div class="journey-content">
+        <div class="card mb-3" style="width: 100%;">
+            <div class="row g-0 p-3">
+                <div class="col-md-4">
+                    <img src="img/a-join.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Join Us on Our Journey</h5>
+                        <p class="card-text">We’re more than just a shop; we’re a community. We invite you to join us on
+                            our journey as we continue to grow, innovate, and serve you better every day. Thank you for
+                            choosing MAS E-SHOP as your trusted shopping partner.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about inner journey content end  -->
+    <!-- footer content start  -->
+    <footer class="footer-container mt-3">
+        <div class="card text-center">
+            <h3>Our Trusted Brands</h3>
+            <div class="card-header d-flex flex-row justify-content-evenly">
+                <div class="brand-img">
+                    <img src="img/4.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                </div>
+                <div class="brand-img">
+                    <img src="img/5.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                </div>
+                <div class="brand-img">
+                    <img src="img/6.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                </div>
+                <div class="brand-img">
+                    <img src="img/7.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                </div>
+                <div class="brand-img">
+                    <img src="img/46.jpg" alt="MAS E-SHOP" class="w-75 h-100">
+                </div>
+            </div>
+            <div class="card-body d-flex justify-content-evenly flex-wrap">
+
+                <ul>
+                    <h4>Quick Links</h4>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service<a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="product.html">Product</a></li>
+                </ul>
+                <ul>
+                    <h4>Dress Links</h4>
+                    <li><a href="men.html">Men's Wear</a></li>
+                    <li><a href="women.html">Women's Wear</a></li>
+                    <li><a href="kids.html">Kid's Wear</a></li>
+                </ul>
+                <ul>
+                    <h4>Product Links</h4>
+                    <li><a href="watch.html">Watches & Perfumes</a></li>
+                    <li><a href="footwear.html">FootWear & Shoes</a></li>
+                    <li><a href="purse.html">Purse & Hand Bag</a></li>
+                    <li><a href="kitchen.html">Home & Kitchen</a></li>
+                    <li><a href="furniture.html">Electronics & Furniture</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                </ul>
+                <ul>
+                    <h4>Follow Us On</h4>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="card-footer text-body-secondary">
+                <p>copyrights &copy; 2024 reserved- Developed By <a href="https://masinfotech.netlify.app/">MAS infotech
+                    </a> </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer content end  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
